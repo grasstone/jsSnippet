@@ -1,0 +1,1 @@
+oc get pod| grep svc| grep Running |  tr -s "[:blank:]" "," >> savedoutput.csv
